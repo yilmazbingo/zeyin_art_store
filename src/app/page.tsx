@@ -12,7 +12,7 @@ export default async function Home() {
         <Image src={img.src} alt="background image" fill />
       </div>
       <Socials />
-      <div className="relative z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex flex-col">
+      <div className="sm:w-full relative z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex flex-col">
         <MarqueeComponent data={data}></MarqueeComponent>
       </div>
     </main>
