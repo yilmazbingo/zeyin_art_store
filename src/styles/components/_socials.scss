@@ -1,0 +1,111 @@
+.instagram {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    // color: map-get($icon-colors, linkedin);
+    border-radius: 10%;
+
+    &:hover {
+      color: rgb(25, 25, 109);
+    }
+  }
+}
+.etsy {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    background-color: map-get($icon-bg-colors, etsy);
+    color: map-get($icon-colors, white);
+    border-radius: 50%;
+    &:hover {
+      background-color: white;
+      color: #eb6d20;
+    }
+  }
+}
+
+.pinterest {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    background-color: map-get($icon-bg-colors, pinterest);
+    color: map-get($icon-colors, pinterest);
+    border-radius: 10%;
+    &:hover {
+      background-color: #e60023;
+      color: white;
+    }
+  }
+}
+
+.youtube {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    border-radius: 10%;
+    background-color: white;
+
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, youtube);
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+.twitter {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, twitter);
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+
+.facebook {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    background-color: map-get($icon-bg-colors, linkedin);
+    color: map-get($icon-colors, linkedin);
+    border-radius: 10%;
+    &:hover {
+      color: rgb(25, 25, 109);
+    }
+  }
+}
+
+.tiktok {
+  svg {
+    height: 3rem !important;
+    width: 3rem !important;
+    // background-color: map-get($icon-bg-colors, tiktok);
+    filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
+
+    color: map-get($icon-colors, linkedin);
+    border-radius: 10%;
+    &:hover {
+      color: black;
+    }
+  }
+}
+.height {
+  height: 40rem;
+}
