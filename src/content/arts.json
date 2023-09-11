@@ -7,9 +7,11 @@
     "sideImages": [
       "https://res.cloudinary.com/do8b0d6u7/image/upload/v1694137763/zeyin/fenerbahce/fenerbahce_framed.jpg",
       "https://res.cloudinary.com/do8b0d6u7/image/upload/v1694138018/zeyin/fenerbahce/fenerbahce_front.jpg",
+      "https://res.cloudinary.com/do8b0d6u7/image/upload/v1694397466/zeyin/fenerbahce/fenerbahce_right.jpg",
+      "https://res.cloudinary.com/do8b0d6u7/image/upload/v1694397767/zeyin/fenerbahce/fenerbahce_logo.jpg",
       ""
     ],
-    "video": "",
+    "video": "https://res.cloudinary.com/do8b0d6u7/video/upload/v1694397148/zeyin/fenerbahce/fenerbahce_logo_video.mp4",
     "price": 124.99,
     "artist": "Sibel Bingol",
     "description": "Discover exquisite 3D handcrafted paper relief art featuring the iconic Fenerbahçe Football Club emblem. Our meticulously crafted artwork captures the essence of Fenerbahçe with stunning precision, from the vibrant yellow and blue colors to the intricate contours. Elevate your space with this unique piece of sports-inspired art that blends craftsmanship and fandom. Perfect for dedicated Fenerbahçe supporters and art connoisseurs alike. Explore our collection and bring the spirit of Fenerbahçe into your home today.",
@@ -41,7 +43,7 @@
     "price": 99,
     "artist": "Sibel Bingol",
     "description": "Elevate your passion for Galatasaray with our meticulously handcrafted 3D paper relief art featuring the iconic Galatasaray logo. Each detail of the emblem comes to life in stunning 3D relief, from the vibrant yellow and red hues to the subtle contours. This unique piece of art beautifully combines intricate design and the spirit of your favorite team. Whether you're a dedicated Galatasaray supporter or appreciate the fusion of sports and art, this relief art adds sophistication and fandom to any space. It's the perfect gift for fellow Galatasaray fans, a thoughtful and memorable celebration of their team. Explore our collection and own a piece of Galatasaray history today.",
-    "slug": "galatasay-logo-art",
+    "slug": "galatasaray-logo-art",
     "etsy": "https://www.etsy.com/listing/1540867932/galatasaray-logo-3d-paper-relief-art",
     "wsl": [
       "Elevate your love for Galatasaray with this meticulously handcrafted 3D paper relief art featuring the iconic Galatasaray logo. A true homage to both the art of paper craftsmanship and the passion of football, this unique piece brings together the beauty of intricate design and the spirit of your favorite team.",

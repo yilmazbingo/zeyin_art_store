@@ -9,9 +9,9 @@ interface ArtCardProps {
 export default function ArtCard({ product }: ArtCardProps) {
   return (
     <Link href={`/art/${product.slug}`}>
-      <div className="bg-beig rounded-xl shadow-md overflow-hidden w-96">
+      <div className="bg-beig rounded-xl shadow-md overflow-hidden w-96 xs:w-full ">
         <div className="max-w-sm  lg:max-w-full lg:flex flex-col">
-          <div className="mb-8 mt-2 ml-2">
+          <div className="mb-8 mt-2 ml-2 sm:ml-0">
             <p className="text-sm text-gray-600 flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,13 +42,13 @@ export default function ArtCard({ product }: ArtCardProps) {
             </div>
             <div className="flex items-center ">
               <img
-                className="w-10 h-10 rounded-full mr-4"
+                className="w-10 h-10 rounded-full mx-3 mt-1"
                 src="logo.jpeg"
                 alt="logo of zeyin art store"
               />
               <div className="text-sm ">
-                <p className="text-gray-900 leading-none">Jonathan Reinink</p>
-                <p className="text-gray-600">Aug 18</p>
+                <p className="text-gray-900 leading-none">Sibel Bingol</p>
+                {/* <p className="text-gray-600">Aug 18</p> */}
               </div>
             </div>
           </div>

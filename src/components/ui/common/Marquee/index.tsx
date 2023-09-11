@@ -15,13 +15,13 @@ interface Props {
 const MarqueeComponent: FC<Props> = ({ data }: Props) => {
   // console.log("data", data);
   return (
-    <div className="container">
+    <div className="lg:w-5/6 sm:w-full mt-10 xs:w-full">
       {/* items start 80 pixel from the right */}
-      <Marquee pauseOnHover={true}>
+      <Marquee className="md:w-full sm:w-full md:ml-2" pauseOnHover={true}>
         {data.map((product: ArtProduct) => {
           // console.log("-----------------", product);
           return (
-            <div className="mr-5 h-full">
+            <div className="mr-5 h-full sm:w-full">
               <ArtCard
                 key={product.id}
                 // variant="slim"

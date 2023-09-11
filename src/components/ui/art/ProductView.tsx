@@ -34,7 +34,7 @@ const ProductView = ({ product }: ProductViewProps) => {
   return (
     <div className="pb-20 pt-20 flex flex-col  justify-between lg:flex-row gap-16 ">
       <div className="flex flex-col gap-6 lg:w-2/4 lg:h-1/3 justify-center">
-        <div className="bg-brown ml-4 flex object-cover object-contain justify-center ">
+        <div className="bg-brown ml-4 flex object-cover  justify-center ">
           {activeImg && (
             <img
               src={activeImg}
@@ -131,8 +131,19 @@ const ProductView = ({ product }: ProductViewProps) => {
             </button> */}
           {/* </div> */}
           <Link href={product.etsy} target="_blank">
-            <div style={{ backgroundColor: "#eb6d20" }} className="w-full">
+            <div
+              style={{ backgroundColor: "#eb6d20" }}
+              className="w-full  hover:text-black"
+            >
               <button className=" py-4 mx-10">Shop On Etsy</button>
+            </div>
+          </Link>
+          <Link href="/">
+            <div
+              style={{ backgroundColor: "#a881af" }}
+              className="w-full hover:text-black"
+            >
+              <button className=" py-4 mx-10">Back to Home</button>
             </div>
           </Link>
         </div>

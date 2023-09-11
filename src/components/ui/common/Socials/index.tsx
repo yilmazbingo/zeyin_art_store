@@ -5,7 +5,7 @@ import { TiSocialYoutubeCircular } from "react-icons/ti";
 
 export default function Socials() {
   return (
-    <div className="absolute mt-5 inset-0 ">
+    <div className="absolute mt-5 inset-0 sm:w-full">
       <section>
         <div className="lg:text-5xl sm:text-center sm:text-4xl font-semibold lg:text-left text-white leading-none">
           {/* Paper comes to life */}
