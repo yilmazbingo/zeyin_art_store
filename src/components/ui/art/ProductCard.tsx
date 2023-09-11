@@ -23,7 +23,7 @@ export default function ArtCard({ product }: ArtCardProps) {
               </svg>
               {product.type}
             </p>
-            <div className="text-gray-900 font-bold text-xl mb-2">
+            <div className="text-gray-900 font-bold text-xl mb-2 ml-1">
               {product.title}
             </div>
             <div

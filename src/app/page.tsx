@@ -16,11 +16,11 @@ export default async function Home() {
           // fill
           className="relative h-auto w-full"
           fill
-          objectFit="cover"
+          objectFit="contain"
         />
       </div>
       <Socials />
-      <div className=" relative z-10 max-w-10xl items-center justify-between font-mono text-sm lg:flex flex-col">
+      <div className=" relative z-10 lg:w-11/12  items-center justify-between font-mono text-sm lg:flex flex-col">
         <MarqueeComponent data={data}></MarqueeComponent>
       </div>
     </main>
