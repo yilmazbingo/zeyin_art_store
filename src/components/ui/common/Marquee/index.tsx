@@ -17,7 +17,10 @@ const MarqueeComponent: FC<Props> = ({ data }: Props) => {
   return (
     <div className="lg:w-5/6 sm:w-full mt-10 xs:w-full">
       {/* items start 80 pixel from the right */}
-      <Marquee className="md:w-full sm:w-full" pauseOnHover={true}>
+      <Marquee
+        className="md:w-full sm:w-full overflow-x-hidden"
+        pauseOnHover={true}
+      >
         {data.map((product: ArtProduct) => {
           // console.log("-----------------", product);
           return (
