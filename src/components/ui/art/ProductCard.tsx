@@ -8,10 +8,10 @@ interface ArtCardProps {
 }
 export default function ArtCard({ product }: ArtCardProps) {
   return (
-    <Link href={`/art/${product.slug}`}>
+    <Link href={`/art/${product.slug}`} className="cursor-pointer z-10">
       <div className="bg-beig rounded-xl shadow-md overflow-hidden w-96 xs:w-full ">
         <div className="max-w-sm  lg:max-w-full lg:flex flex-col">
-          <div className="mb-8 mt-2 ml-2 sm:ml-0">
+          <div className="mb-8 mt-2 ml-2 sm:ml-0 ">
             <p className="text-sm text-gray-600 flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export default function ArtCard({ product }: ArtCardProps) {
               </svg>
               {product.type}
             </p>
-            <div className="text-gray-900 font-bold text-xl mb-2 ml-1">
+            <div className="text-gray-900 font-bold text-xl mb-2 ml-1 h-16">
               {product.title}
             </div>
             <div
