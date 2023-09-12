@@ -89,7 +89,7 @@ const ProductView = ({ product }: ProductViewProps) => {
         </div>
       </div>
       {/* ABOUT */}
-      <div className="flex flex-col gap-4 lg:w-2/4 2xl:h- ml-1 ">
+      <div className="flex flex-col gap-4 lg:w-2/4 2xl:h- ml-3 ">
         <div>
           <h2
             style={{ color: "#9395d3" }}
