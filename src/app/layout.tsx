@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         // style={{ backgroundColor:  }}
-        className={`${inter.className} bg-midnightBlue`}
+        className={`${inter.className} bg-slate-700`}
       >
         {children}
       </body>

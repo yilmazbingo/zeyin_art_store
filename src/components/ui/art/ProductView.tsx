@@ -34,7 +34,7 @@ const ProductView = ({ product }: ProductViewProps) => {
   return (
     <div className="pb-20 pt-20 flex flex-col  justify-between lg:flex-row gap-16 ">
       <div className="flex flex-col gap-6 lg:w-2/4 lg:h-1/3 justify-center">
-        <div className="bg-burgundy ml-4 flex object-cover  justify-center ">
+        <div className="bg-black ml-4 flex object-cover  justify-center ">
           {activeImg && (
             <img
               src={activeImg}
