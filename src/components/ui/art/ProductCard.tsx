@@ -9,7 +9,7 @@ interface ArtCardProps {
 export default function ArtCard({ product }: ArtCardProps) {
   return (
     <Link href={`/art/${product.slug}`} className="cursor-pointer z-10">
-      <div className="bg-mountainBlue rounded-xl shadow-md overflow-hidden w-96 xs:w-full ">
+      <div className="bg-sienna rounded-xl shadow-md overflow-hidden w-96 xs:w-full ">
         <div className="max-w-sm  lg:max-w-full lg:flex flex-col">
           <div className="mb-8 mt-2 ml-2 sm:ml-0 ">
             {/* <p className="text-sm text-gray-600 flex items-center uppercase">
@@ -27,13 +27,13 @@ export default function ArtCard({ product }: ArtCardProps) {
               {product.title}
             </div>
             <div
-              className="flex flex-1 bg-black "
+              className="flex flex-1 bg-black transform hover:scale-110 ease-linear duration-1000 "
               // style={{ backgroundImage: `url(${product.coverImage})` }}
               // title={product.title}
             >
               <img
                 src={product.coverImage}
-                className="h-72 w-full rounded-t lg:rounded-t-none lg:rounded-l text-center object-contain "
+                className="h-72 w-full rounded-t lg:rounded-t-none lg:rounded-l text-center object-contain relative overflow-hidden "
                 alt=""
               />
             </div>

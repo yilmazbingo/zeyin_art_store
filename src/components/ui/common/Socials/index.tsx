@@ -10,7 +10,7 @@ export default function Socials() {
         <div className="lg:text-5xl  sm:mt-2  sm:text-4xl font-semibold lg:text-left text-white leading-none">
           {/* Paper comes to life */}
         </div>
-        <ul className=" flex flex-row text-center ">
+        <ul className=" flex flex-row sm:justify-center ">
           <li className="ml-1">
             <a
               href="https://www.etsy.com/shop/zeyin?ref=seller-platform-mcnav"

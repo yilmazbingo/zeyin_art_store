@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "380px",
+      },
       colors: {
         pri: "#36454F",
         beig: "#7d98a1",
