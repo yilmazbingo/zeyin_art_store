@@ -49,7 +49,7 @@ const ProductView = ({ product }: ProductViewProps) => {
               width="250"
               className="w-2/3 h-full aspect-square object-cover rounded-xl "
             >
-              <source src={product.video} type="video/webm" />
+              <source src={product.video} type="video/mp4" />
             </video>
           )}
         </div>
