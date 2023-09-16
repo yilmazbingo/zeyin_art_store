@@ -38,7 +38,7 @@ export default function ArtCard({ product }: ArtCardProps) {
               />
             </div>
             <div className=" h-72 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-              <p className="text-gray-700 text-base">{product.wsl[0]}</p>
+              <p className="text-gray-700 ">{product.description}</p>
             </div>
             <div className="flex items-center ">
               <img
