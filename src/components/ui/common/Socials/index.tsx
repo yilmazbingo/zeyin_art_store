@@ -31,7 +31,7 @@ export default function Socials() {
           </li>
           <li className="ml-1">
             <a
-              href="https://www.instagram.com/zeyin_store/"
+              href="https://www.instagram.com/zeyin_art/"
               target="_blank"
               className="instagram"
             >
@@ -59,7 +59,7 @@ export default function Socials() {
           </li>
           <li className="ml-1">
             <a
-              href="https://www.pinterest.com/zeyinstore/"
+              href="https://www.pinterest.com/zeyin_art/"
               target="_blank"
               className="pinterest"
             >
